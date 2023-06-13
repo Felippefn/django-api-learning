@@ -32,5 +32,13 @@ Database: PostgreSQL
 
 `Car`
 - `cars/` will return a template html with all drivers and cars related to him;
--  `cars/create` will create a driver/Car (Requirements: For driver: Name and License. <br>For car);
+-  `cars/create/` will create a driver/Car (Requirements: For driver: Name and License. <br>For car: );
 -  `cars/id` will get the driver by their id and cars related to him;
+
+`Questions`
+- *TODO `questions/` will return all questions made and their authors;
+- `questions/create/` Will create your question (Requirements: question)
+
+`UserMain`
+- `users/` will show all users created on db.
+- `users/create/` this will create your user. (Requirements: username, password and email)
