@@ -2,6 +2,8 @@
 
 ## Study purpose. 
 
+
+
 <br> Not in production. </br>
 
 Language: Python
@@ -32,8 +34,9 @@ Database: PostgreSQL
 
 `Car`
 - `cars/` will return a template html with all drivers and cars related to him;
--  `cars/create/` will create a driver/Car (Requirements: For driver: Name and License. <br>For car: );
+-  `cars/create/` will create a driver/Car (Requirements: For driver: Name and License. <br>For car: make, model, year, vin and owner);
 -  `cars/id` will get the driver by their id and cars related to him;
+- `cars/create/car` will insert a car with ForeginKey in Owner's name;
 
 `Questions`
 - *TODO `questions/` will return all questions made and their authors;
